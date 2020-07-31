@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import "./assets/css/styles.css";
 
-function App() {
+const routes = [
+  {
+    exact: true,
+    path: "/",
+    component: Home
+  }
+];
+
+const NoMatch = ({ location }) => (
+  <div>
+    <h1>404 page</h1>
+    <h3>
+      No match for <code>{location.pathname}</code>
+    </h3>
+  </div>
+);
+
+const AppRouter = () => (
+  <Switch>
+    {routes.map(route => (
+      <Route key={route} {...route} />
+    ))}
+    <Route component={NoMatch} />
+  </Switch>
+);
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <AppRouter />
+    </Router>
   );
-}
+};
 
 export default App;
