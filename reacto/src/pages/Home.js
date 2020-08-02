@@ -14,6 +14,10 @@ export default function Home() {
   const [testimonials, loadingTestimonials, errorTestimonials] = useFetch(
     "https://wknd-take-home-challenge-api.herokuapp.com/testimonial"
   );
+
+  const [tips, loadingTips, errorTips] = useFetch(
+    "https://wknd-take-home-challenge-api.herokuapp.com/help-tips"
+  );
   return (
     <>
       <Header />
@@ -34,8 +38,10 @@ export default function Home() {
       <div className="povResource-wrapper">
         <Resource />
       </div>
-      <div>
-        <Tips />
+      <div className="tips-wrapper">
+        {tips && <Tips tips={tips} />}
+        {loadingTips && <p>Loading...</p>}
+        {errorTips && <p>Failed to fetch...</p>}
       </div>
     </>
   );

@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimonial(props) {
   return (
     <>
-      {JSON.stringify(props)}
+      {/* {JSON.stringify(props)} */}
       <div>
         <div>
           <div className="testimonial-wrapper-1">
@@ -21,7 +21,7 @@ export default function Testimonial(props) {
                 </div>
               ))}
             </div>
-            <p> -should display fetch data of testimonials-</p>
+            {/* <p> -should display fetch data of testimonials-</p> */}
           </div>
         </div>
       </div>
