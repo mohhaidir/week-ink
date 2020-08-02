@@ -11,7 +11,7 @@ export default function Top() {
             <p>Stay active with a little workout</p>
           </div>
           <img src={robo} alt="robo" />
-          <div>
+          <div className="text-button">
             <h5>Let's Go</h5>
           </div>
         </div>

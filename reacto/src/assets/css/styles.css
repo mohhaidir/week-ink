@@ -11,24 +11,65 @@
 }
 
 .greeting-wrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 10px; */
 }
+/* ===== header =====*/
 
 .top-wrapper {
   background-image: url("../img/bg-1.png");
   background-size: 100%;
-  /* width: 100%;
-  line-height: 100%; */
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-wrapper {
-  text-align: center;
+  /* text-align: center;
   padding: 151px;
-  color: white;
+  color: white; */
 }
 
 .text-stay-active {
-  font-family: "Work Sans", sans-serif;
+  /* font-family: "Work Sans", sans-serif; */
 }
+
+.text-button {
+  /* background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-radius: 28px;
+  width: 300px;
+  margin-bottom: 13.4em;
+  margin-left: 34em;
+  margin-top: -5em;
+  position: absolute; */
+}
+
+/* ===== top =====*/
+
+.testimonial-circle-object {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 40px;
+}
+
+/* ===== testimonials =====*/
+
+.povResource-wrapper {
+  background-color: black;
+}
+
+.povResource-text-wrapper {
+  color: white;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  padding: 2em 0;
+}
+
+/* ===== pov =====*/
