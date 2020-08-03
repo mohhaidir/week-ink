@@ -5,16 +5,14 @@ import avatar from "../assets/img/avatar.png";
 
 export default function Header() {
   return (
-    <Navbar bg="light" expand="lg">
-      <div className="header-wrapper">
-        <div className="header-avatar">
-          <img src={avatar} alt="avatar" />
-        </div>
+    <div className="nav">
+      <div className="container header-wrapper">
+        <img className="header-img" src={avatar} alt="avatar" />
         <div className="greeting-wrapper">
           <div className="greeting-1">Good Morning</div>
           <div className="greeting-2">Fellas</div>
         </div>
       </div>
-    </Navbar>
+    </div>
   );
 }

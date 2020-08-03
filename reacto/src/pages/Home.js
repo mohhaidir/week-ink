@@ -45,10 +45,10 @@ export default function Home() {
         {loadingTips && <p>Loading...</p>}
         {errorTips && <p>Failed to fetch...</p>}
       </div>
-      {/* <div className="set-wrapper">
+      <div className="set-wrapper">
         <Set />
-      </div> */}
-      {/* <Footer /> */}
+      </div>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import Arrow from "../assets/img/oval-icon.png";
-import path from "../assets/img/path-3.png";
 
 export default function Tips(props) {
   return (
@@ -14,7 +13,7 @@ export default function Tips(props) {
               <img className="tip-img" src={tip.image} alt={tip.slug} />
               <div className="tip-detail">
                 <p>{tip.title}</p>
-                <img className="slider-arrow" src={Arrow} alt="arrow" />
+                <img src={Arrow} alt="arrow" />
               </div>
             </div>
           ))}

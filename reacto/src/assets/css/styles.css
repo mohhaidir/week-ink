@@ -7,20 +7,24 @@ body {
 }
 /* ========global======== */
 
-.header-wrapper {
+.nav {
   display: flex;
-  flex-direction: row;
-  min-height: 67px;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.header-avatar {
-  margin-left: 213px;
-  padding: 17px;
+.header-img {
+  margin: 20px 0px;
+}
+
+.header-wrapper {
+  min-height: 67px !important;
+  display: flex;
 }
 
 .greeting-wrapper {
-  padding: 9px;
-  margin-left: 5px;
+  margin: 15px 0px;
+  margin-left: 13px;
 }
 
 .greting1 {
@@ -35,22 +39,22 @@ body {
 
 .top-wrapper {
   background-image: url("../img/bg-1.png");
-  background-color: pink;
-  background-position: bottom;
-  background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
+  background-position: bottom;
+  background-color: pink;
+  background-repeat: no-repeat;
 }
 
 .text-wrapper {
-  padding: 10% 0px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0% 15% 0%;
   color: white;
 }
 
 h1 {
-  font-size: 62px;
+  font-size: 82px;
   font-weight: 900;
   line-height: 0.82;
   text-transform: uppercase;
@@ -58,7 +62,7 @@ h1 {
 }
 
 .text-stay-active {
-  font-size: 21px;
+  font-size: 33px;
   font-weight: 600;
   font-style: italic;
 }
@@ -75,7 +79,7 @@ h1 {
   top: -100px;
   position: relative;
   color: black;
-  margin: 0vh 70vh;
+  /* margin: 0vh 70vh; */
 }
 
 .text-button:hover {
@@ -142,8 +146,8 @@ h5 {
 }
 
 .testimonial-circle-object {
-  width: 80px;
-  height: 72px;
+  width: 90px;
+  height: 82px;
   background-color: blue;
   border-radius: 50%;
 }
@@ -283,6 +287,37 @@ span {
 
 /* ===== tips =====*/
 
+.set-wrapper {
+  background-color: black;
+  padding-top: 3%;
+  color: white;
+  display: flex;
+}
+
+.set-img {
+  position: absolute;
+}
+
+.set-text {
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 12%;
+}
+
+.set-title {
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 0px 20px 30px rgba(249, 131, 171, 0.5);
+}
+
+.set-description {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.64px;
+}
+
+/* ===== set =====*/
 .footer-wrapper {
   background-color: #0b24fb;
   color: white;
