@@ -79,7 +79,6 @@ h1 {
   top: -100px;
   position: relative;
   color: black;
-  /* margin: 0vh 70vh; */
 }
 
 .text-button:hover {
@@ -329,9 +328,6 @@ span {
   margin: auto;
   display: flex;
   justify-content: space-between;
-}
-
-.footer-text {
 }
 
 .footer-version {
