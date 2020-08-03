@@ -1,6 +1,4 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import avatar from "../assets/img/avatar.png";
 
 export default function Header() {
