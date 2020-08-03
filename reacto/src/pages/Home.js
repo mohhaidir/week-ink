@@ -34,12 +34,12 @@ export default function Home() {
         {loadingTestimonials && <p>Loading...</p>}
         {errorTestimonials && <p>Failed to fetch...</p>}
       </div>
-      {/* <div className="povResource-wrapper">
+      <div className="povResource-wrapper">
         <Pov />
-      </div> */}
-      {/* <div className="povResource-wrapper">
+      </div>
+      <div className="povResource-wrapper">
         <Resource />
-      </div> */}
+      </div>
       {/* <div className="tips-wrapper">
         {tips && <Tips tips={tips} />}
         {loadingTips && <p>Loading...</p>}

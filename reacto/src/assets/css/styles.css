@@ -2,6 +2,9 @@
   width: 70%;
   margin: auto;
 }
+body {
+  background-color: pink;
+}
 /* ========global======== */
 
 .header-wrapper {
@@ -108,7 +111,8 @@ h5 {
 .definition-team {
   font-weight: 600;
   font-style: italic;
-  padding: 0px 200px;
+  color: white;
+  padding-right: 200px;
 }
 /* ===== definition =====*/
 
@@ -139,7 +143,7 @@ h5 {
 
 .testimonial-circle-object {
   width: 80px;
-  height: 80px;
+  height: 72px;
   background-color: blue;
   border-radius: 50%;
 }
@@ -153,13 +157,14 @@ h5 {
 }
 
 .title {
+  color: white;
   font-size: 32px;
   font-weight: 900;
   text-shadow: 0px 20px 30px rgba(249, 131, 171, 0.5);
 }
 
 .testimonials-text-slider {
-  margin: 0px 1000px;
+  margin: 0px 10px;
 }
 
 .BrainhubCarousel__trackContainer {
@@ -182,18 +187,29 @@ h5 {
   font-size: 12px;
   letter-spacing: -0.43px;
 }
-/* ===== testimonials =====*/
 
-.povResource-wrapper {
-  background-color: black;
+.BrainhubCarousel__arrows {
+  border-radius: 50% !important;
+  background-color: white;
+}
+.BrainhubCarousel__arrows:disabled {
+  opacity: 0.35;
 }
 
+span {
+  border-color: #0b24fb;
+}
+/* ===== testimonials =====*/
+
 .povResource-text-wrapper {
-  color: white;
+  width: 32.3%;
   margin: auto;
-  width: 40%;
   text-align: center;
-  padding: 2em 0;
+  padding: 3% 0%;
+  color: white;
+}
+.povResource-wrapper {
+  background-color: black;
 }
 
 /* ===== pov =====*/
