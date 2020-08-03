@@ -208,11 +208,80 @@ span {
   padding: 3% 0%;
   color: white;
 }
+
+.povResource-title {
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 0px 20px 30px rgba(249, 131, 171, 0.5);
+}
 .povResource-wrapper {
   background-color: black;
 }
-
 /* ===== pov =====*/
+
+.tips-wrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.tips-container {
+  width: 60%;
+  margin: auto;
+}
+
+.tips-detail {
+  text-align: center;
+  background-image: url("../img/path-3.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  padding: 0% 8%;
+}
+
+.tips-title {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 0px 20px 30px rgba(249, 131, 171, 0.5);
+}
+
+.tips-text-slider {
+  margin-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+}
+
+.tip {
+  width: 33%;
+  margin-left: 1%;
+  position: relative;
+}
+
+.tip:hover {
+  cursor: pointer;
+}
+
+.tip-img {
+  width: 100%;
+}
+
+.tip-detail {
+  display: flex;
+  background-color: #00000063;
+  max-height: 72px;
+  min-height: 72px;
+  height: 72px;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 5%;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-weight: 500;
+}
+
+/* ===== tips =====*/
 
 .footer-wrapper {
   background-color: #0b24fb;

@@ -40,11 +40,11 @@ export default function Home() {
       <div className="povResource-wrapper">
         <Resource />
       </div>
-      {/* <div className="tips-wrapper">
+      <div className="tips-wrapper">
         {tips && <Tips tips={tips} />}
         {loadingTips && <p>Loading...</p>}
         {errorTips && <p>Failed to fetch...</p>}
-      </div> */}
+      </div>
       {/* <div className="set-wrapper">
         <Set />
       </div> */}
