@@ -6,7 +6,9 @@ import {
   Testimonial,
   Pov,
   Resource,
-  Tips
+  Tips,
+  Set,
+  Footer
 } from "../components";
 import useFetch from "../hooks/useFetch";
 
@@ -32,17 +34,21 @@ export default function Home() {
         {loadingTestimonials && <p>Loading...</p>}
         {errorTestimonials && <p>Failed to fetch...</p>}
       </div>
-      <div className="povResource-wrapper">
+      {/* <div className="povResource-wrapper">
         <Pov />
-      </div>
-      <div className="povResource-wrapper">
+      </div> */}
+      {/* <div className="povResource-wrapper">
         <Resource />
-      </div>
-      <div className="tips-wrapper">
+      </div> */}
+      {/* <div className="tips-wrapper">
         {tips && <Tips tips={tips} />}
         {loadingTips && <p>Loading...</p>}
         {errorTips && <p>Failed to fetch...</p>}
-      </div>
+      </div> */}
+      {/* <div className="set-wrapper">
+        <Set />
+      </div> */}
+      {/* <Footer /> */}
     </>
   );
 }
