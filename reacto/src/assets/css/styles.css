@@ -3,7 +3,7 @@
   margin: auto;
 }
 body {
-  background-color: pink;
+  background-color: black;
 }
 /* ========global======== */
 
@@ -11,10 +11,12 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  background-color: white;
 }
 
 .header-img {
-  margin: 20px 0px;
+  margin: 22px 0px;
+  height: 50px;
 }
 
 .header-wrapper {
@@ -23,7 +25,7 @@ body {
 }
 
 .greeting-wrapper {
-  margin: 15px 0px;
+  margin: 22px 0px;
   margin-left: 13px;
 }
 
@@ -101,6 +103,7 @@ h5 {
   text-align: right;
   font-size: 21px;
   background-color: pink;
+  margin-bottom: -16px;
 }
 
 .definition-text {
@@ -116,6 +119,7 @@ h5 {
   font-style: italic;
   color: white;
   padding-right: 200px;
+  background-color: pink;
 }
 /* ===== definition =====*/
 
@@ -149,6 +153,7 @@ h5 {
   height: 82px;
   background-color: blue;
   border-radius: 50%;
+  margin-top: 38px;
 }
 
 .testimonial-title {
@@ -321,6 +326,9 @@ span {
   background-color: #0b24fb;
   color: white;
   height: 67px;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
 }
 
 .footer-text-wrapper {
