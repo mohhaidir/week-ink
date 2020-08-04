@@ -206,8 +206,8 @@ h5 {
 }
 
 .testimonial-circle-object {
-  width: 90px;
-  height: 82px;
+  width: 100px;
+  height: 92px;
   background-color: blue;
   border-radius: 50%;
   margin-top: 38px;
@@ -263,6 +263,33 @@ h5 {
 
 span {
   border-color: #0b24fb;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-width {
+    width: 100%;
+  }
+  .testimonial-circle-object {
+    position: relative;
+    width: 120px;
+    margin-left: 10px;
+    left: 50px;
+  }
+  .title {
+    margin-top: 110px;
+    margin-left: -150px;
+  }
+  .BrainhubCarousel__arrows {
+    display: none !important;
+  }
+  .BrainhubCarouse {
+    width: 100%;
+  }
+  .BrainhubCarouselItem {
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 /* ===== testimonials =====*/
 
@@ -357,6 +384,27 @@ span {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 600px) {
+  .tips-container {
+    width: 100%;
+  }
+  .tips-detail {
+    background-image: unset;
+    align-items: center;
+  }
+  .tip-detail {
+    padding: 0% 10%;
+  }
+  .tips-title {
+    text-align: left;
+  }
+  .tips-text-slider {
+    flex-direction: column;
+  }
+  .tip {
+    width: 100%;
+  }
+}
 /* ===== tips =====*/
 
 .set-wrapper {
@@ -399,7 +447,8 @@ span {
   .set-text {
     width: 85%;
     text-align: left;
-    padding-bottom: 109%;
+    padding-bottom: 90%;
+    margin-top: 67px;
   }
 }
 /* ===== set =====*/
