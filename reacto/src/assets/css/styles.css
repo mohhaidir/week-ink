@@ -36,11 +36,11 @@ body {
   margin-left: 13px;
 }
 
-.greting1 {
+.greeting-1 {
   font-size: 12px;
 }
 
-.greting2 {
+.greeting-2 {
   font-size: 16px;
   font-weight: 900;
 }
@@ -134,6 +134,7 @@ h5 {
   }
   .text-stay-active {
     font-size: 16px;
+    margin-top: -10px;
   }
   .text-wrapper {
     padding: 10% 0% 0% 0%;
@@ -172,7 +173,7 @@ h5 {
 
 @media only screen and (max-width: 600px) {
   .definition-text {
-    padding: 0px 32px;
+    padding: 63px 32px;
   }
   .definition-team {
     padding-right: 32px;
@@ -206,7 +207,7 @@ h5 {
 }
 
 .testimonial-circle-object {
-  width: 100px;
+  width: 105px;
   height: 92px;
   background-color: blue;
   border-radius: 50%;
@@ -236,21 +237,26 @@ h5 {
   margin: 5%;
 }
 .BrainhubCarouselItem {
-  padding: 20px !important;
+  padding: 0px 20px !important;
   background-color: white;
-  margin-left: 10px;
   color: black;
   width: 247px !important;
   min-width: 247px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
 }
 .testimonial-h4 {
   font-size: 32px;
   font-weight: 900;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  padding-top: 0px !important;
 }
 
 .testimonial-p {
   font-size: 12px;
   letter-spacing: -0.43px;
+  min-height: 62px;
 }
 
 .BrainhubCarousel__arrows {
@@ -268,6 +274,7 @@ span {
 @media only screen and (max-width: 600px) {
   .testimonial-width {
     width: 100%;
+    padding-bottom: 110px;
   }
   .testimonial-circle-object {
     position: relative;
@@ -287,17 +294,29 @@ span {
   }
   .BrainhubCarouselItem {
     height: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+  .testimonial-p {
+    min-height: 62px;
   }
 }
 /* ===== testimonials =====*/
 
-.povResource-wrapper {
+.pov-wrapper {
   background-color: black;
   display: flex;
   justify-content: center;
+  margin-top: -50px;
 }
+
+.resource-wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
 .povResource-text-wrapper {
   width: 32.3%;
   margin: 0px 32px;
@@ -313,13 +332,19 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+  .pov-wrapper {
+    margin-top: -100px;
+  }
   .povResource-text-wrapper {
     width: 100%;
     margin: 0px 32px;
     text-align: left;
   }
+  .resource-wrapper {
+    margin-top: -10px;
+  }
 }
-/* ===== pov =====*/
+/* ===== pov & resource =====*/
 
 .tips-wrapper {
   background-color: black;
@@ -385,6 +410,9 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+  .tips-wrapper {
+    margin-top: 17px;
+  }
   .tips-container {
     width: 100%;
   }
@@ -438,7 +466,11 @@ span {
   line-height: 1.5;
   letter-spacing: -0.64px;
 }
+
 @media only screen and (max-width: 600px) {
+  .set-wrapper {
+    margin-top: -50px;
+  }
   .set-img {
     width: 253px;
     height: 337px;
@@ -481,6 +513,7 @@ span {
   font-weight: 300z;
   padding: 2px;
 }
+
 @media only screen and (max-width: 600px) {
   .footer-text {
     font-size: 12px;

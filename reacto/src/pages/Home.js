@@ -34,10 +34,10 @@ export default function Home() {
         {loadingTestimonials && <p>Loading...</p>}
         {errorTestimonials && <p>Failed to fetch...</p>}
       </div>
-      <div className="povResource-wrapper">
+      <div className="pov-wrapper">
         <Pov />
       </div>
-      <div className="povResource-wrapper">
+      <div className="resource-wrapper">
         <Resource />
       </div>
       <div className="tips-wrapper">
