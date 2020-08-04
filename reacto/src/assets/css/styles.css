@@ -1,10 +1,12 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
+
 .container {
   width: 70%;
   margin: auto;
 }
+
 body {
   background-color: black;
 }
