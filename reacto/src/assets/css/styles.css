@@ -1,3 +1,7 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -15,17 +19,20 @@ body {
 }
 
 .header-img {
-  margin: 22px 0px;
-  height: 50px;
+  /* margin: 22px 0px; */
+  height: 33px;
+  width: 33px;
 }
 
 .header-wrapper {
-  min-height: 67px !important;
+  min-height: 67px;
   display: flex;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .greeting-wrapper {
-  margin: 22px 0px;
+  /* margin: 22px 0px; */
   margin-left: 13px;
 }
 
@@ -35,7 +42,33 @@ body {
 
 .greting2 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: unset;
+    padding: unset;
+  }
+
+  .nav {
+    height: 67px;
+  }
+
+  .header-wrapper {
+    margin: 0px auto 0px 24px;
+    align-self: center;
+  }
+  .greting1 {
+    font-size: 12px;
+  }
+
+  .greting2 {
+    width: 47px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+  }
 }
 /* ===== header =====*/
 
@@ -51,7 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10% 0% 15% 0%;
+  padding: 2% 0% 5% 0%;
   color: white;
 }
 
@@ -61,6 +94,7 @@ h1 {
   line-height: 0.82;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 50px;
 }
 
 .text-stay-active {
@@ -77,7 +111,7 @@ h1 {
   border-radius: 37px;
   box-shadow: 2px 20px 30px 0px rgba(249, 131, 171, 0.5);
   background-color: white;
-  padding: 20px 83.5px;
+  padding: 0px 83.5px;
   top: -100px;
   position: relative;
   color: black;
@@ -93,7 +127,21 @@ h5 {
   color: black;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 52px;
+  }
+  .text-stay-active {
+    font-size: 16px;
+  }
+  .text-wrapper {
+    padding: 10% 0% 0% 0%;
+  }
+}
+
 /* ===== top =====*/
+
 .definition-img {
   align-self: flex-end;
 }
@@ -103,7 +151,7 @@ h5 {
   text-align: right;
   font-size: 21px;
   background-color: pink;
-  margin-bottom: -16px;
+  margin-bottom: -21px;
 }
 
 .definition-text {
@@ -120,6 +168,15 @@ h5 {
   color: white;
   padding-right: 200px;
   background-color: pink;
+}
+
+@media only screen and (max-width: 600px) {
+  .definition-text {
+    padding: 0px 32px;
+  }
+  .definition-team {
+    padding-right: 32px;
+  }
 }
 /* ===== definition =====*/
 
@@ -209,9 +266,14 @@ span {
 }
 /* ===== testimonials =====*/
 
+.povResource-wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
 .povResource-text-wrapper {
   width: 32.3%;
-  margin: auto;
+  margin: 0px 32px;
   text-align: center;
   padding: 3% 0%;
   color: white;
@@ -222,8 +284,13 @@ span {
   font-weight: 900;
   text-shadow: 0px 20px 30px rgba(249, 131, 171, 0.5);
 }
-.povResource-wrapper {
-  background-color: black;
+
+@media only screen and (max-width: 600px) {
+  .povResource-text-wrapper {
+    width: 100%;
+    margin: 0px 32px;
+    text-align: left;
+  }
 }
 /* ===== pov =====*/
 
@@ -231,6 +298,7 @@ span {
   background-color: black;
   display: flex;
   flex-direction: row;
+  margin-top: 100px;
 }
 
 .tips-container {
@@ -300,13 +368,15 @@ span {
 
 .set-img {
   position: absolute;
+  width: 253px;
+  height: 337px;
 }
 
 .set-text {
   width: 35%;
   margin: auto;
   text-align: center;
-  padding-bottom: 12%;
+  padding-bottom: 9%;
 }
 
 .set-title {
@@ -320,7 +390,18 @@ span {
   line-height: 1.5;
   letter-spacing: -0.64px;
 }
-
+@media only screen and (max-width: 600px) {
+  .set-img {
+    width: 253px;
+    height: 337px;
+    margin-top: 300px;
+  }
+  .set-text {
+    width: 85%;
+    text-align: left;
+    padding-bottom: 109%;
+  }
+}
 /* ===== set =====*/
 .footer-wrapper {
   background-color: #0b24fb;
@@ -336,11 +417,28 @@ span {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
+}
+
+.footer-text {
+  font-size: 16px;
 }
 
 .footer-version {
-  border-radius: 14px;
+  border-radius: 12px;
   border: 1px solid white;
   padding: 2px 8px;
+  font-size: 14px;
+  font-weight: 300z;
+  padding: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .footer-version {
+    font-size: 10px;
+  }
 }
 /* ===== footer =====*/

@@ -3,9 +3,7 @@ import group3 from "../assets/img/group-3.png";
 export default function Set() {
   return (
     <>
-      <div className="set-img">
-        <img src={group3} alt="robo3" />
-      </div>
+      <img className="set-img" src={group3} alt="robo3" />
       <div className="set-text">
         <h3 className="set-title">You're all set.</h3>
         <p className="set-description">
