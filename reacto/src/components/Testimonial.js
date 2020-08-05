@@ -5,7 +5,6 @@ import "@brainhubeu/react-carousel/lib/style.css";
 export default function Testimonial(props) {
   return (
     <div className="testimonial-container">
-      {/* {JSON.stringify(props)} */}
       <div className="testimonial-width">
         <div className="testimonial-wrapper-1">
           <div className="testimonial-circle-object" />
@@ -22,7 +21,6 @@ export default function Testimonial(props) {
               </div>
             ))}
           </Carousel>
-          {/* <p> -should display fetch data of testimonials-</p> */}
         </div>
       </div>
     </div>

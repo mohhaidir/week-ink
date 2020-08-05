@@ -20,6 +20,7 @@ export default function Home() {
   const [tips, loadingTips, errorTips] = useFetch(
     "https://wknd-take-home-challenge-api.herokuapp.com/help-tips"
   );
+
   return (
     <>
       <Header />
